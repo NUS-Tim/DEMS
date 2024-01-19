@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="887" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyDefaultArgumentInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="albumentations" />
+            <item index="1" class="java.lang.String" itemvalue="imageio-ffmpeg" />
+            <item index="2" class="java.lang.String" itemvalue="lmdb" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="torch.utils.data" />
+          <option value="cv2.imread" />
+          <option value="cv2.imwrite" />
+          <option value="cv2.IMREAD_GRAYSCALE" />
+          <option value="cv2.THRESH_BINARY" />
+          <option value="cv2.cvtColor" />
+          <option value="cv2.threshold" />
+          <option value="cv2.COLOR_BGR2GRAY" />
+          <option value="cv2.THRESH_OTSU" />
+          <option value="torch.backends.cudnn" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
