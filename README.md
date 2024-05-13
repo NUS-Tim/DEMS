@@ -1,9 +1,9 @@
-# Data-Efficient Medical Segmenter
+# DEMS: Data-Efficient Medical Segmenter
 Official Pytorch Implementation for Neural Networks Submission: “Segmenting Medical Images with Limited Data”
 
 ## Preparation
 
-Please ensure that a checkpoint and dataset folder exists in the project root directory following
+Please ensure that a "checkpoint" and "dataset" folder exists in the project root directory following
 ```
 ├── project
     ├── data
